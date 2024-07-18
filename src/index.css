@@ -1,0 +1,229 @@
+body {
+  margin-top: -20px;
+ margin-left: -1px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+p {
+  text-align: left; 
+}
+
+.left-content {
+  float: left; 
+}
+
+.right-content {
+  float: right;
+}
+
+.left-content a,
+.right-content a {
+  
+  color: rgb(241, 234, 236);
+  text-decoration: none;
+}
+
+.left-content a:hover,
+.right-content a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.blog-container, h1 {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(6, 6, 6);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: rgb(26, 195, 14);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: rgb(237, 233, 233);
+}
+
+nav {
+  background-color: #0b851b; 
+  width: 100vw; 
+  padding: 10px 0; 
+  text-align: left;
+  color: black; 
+  position: relative;
+  margin-left: -19px; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  padding: 10px 15px; 
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.main-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.main-content .featured-post {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.main-content .featured-post h2 {
+  margin-top: 0;
+}
+
+.main-content .post-list {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.main-content .post-list h3 {
+  margin-top: 0;
+}
+
+aside {
+  position: absolute; /* Change to absolute positioning */
+  top: 200px; /* Position at the top */
+  right: 50px; /* Position at the right side */
+  width: 300px; /* Set a width for the aside box */
+  padding: 20px;
+  background-color: #474945;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left; /* Ensure text is aligned to the left */
+}
+
+aside h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.aside-content {
+  border: 1px solid #ccc; /* Add a border to create a box */
+  padding: 20px; /* Add padding inside the box */
+  background-color: #758d7a; /* Background color for the box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a box shadow */
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 0; /* Remove default padding */
+}
+
+footer {
+  background-color: rgb(17, 200, 41); /* Example background color */
+  color: #fff; /* Example text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Space items evenly between the flex container */
+  align-items: flex-start; /* Align items to the start of the flex container */
+}
+
+.red, .hello, .chello {
+  flex: 1; /* Equal width for all sections */
+}
+
+.red {
+  text-align: left; /* Align content to the left within red section */
+}
+
+.hello {
+  text-align: center; /* Align content to the center within hello section */
+}
+
+.chello {
+  text-align: right;
+  text-indent: 130px; /* Align content to the right within chello section */
+}
+
+.red h1, .hello h1, .chello p {
+  margin-top: 0; /* Remove margin on top of h1 and p elements */
+}
+
+.red ul, .hello ul {
+  list-style-type: none; /* Remove default list styles */
+  padding-left: 0; /* Remove default padding */
+}
+
+.red li, .hello li {
+  margin-bottom: 5px; /* Adjust spacing between list items */
+}
+
+.red a, .hello a {
+  color: #fff; /* Example link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.red a:hover, .hello a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
+h1 {
+  text-align: left; /* Ensures text alignment starts from the left */
+  font-size: 24px; /* Example font size for the heading */
+  color: #333; /* Example text color */
+}
+
+h1 span {
+  font-size: 20px; /* Font size for the span element */
+  color: #666; /* Example text color for the span element */
+}
+
