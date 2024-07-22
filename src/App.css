@@ -91,3 +91,108 @@ button.btn.btn-success:hover {
 .sign-btn:hover {
   background-color: #0069d9;
 }
+
+
+/* App.css */
+.user-details {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-details h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 2px solid #0b0b0b;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button.delete {
+  background-color: #f44336;
+}
+
+button.delete:hover {
+  background-color: #e53935;
+}
+
+.edit-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.edit-form h3 {
+  margin-top: 0;
+}
+
+.edit-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form label {
+  margin-bottom: 10px;
+}
+
+.edit-form input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.edit-form button {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.edit-form button:last-child {
+  margin-right: 0;
+}

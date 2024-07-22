@@ -1,12 +1,12 @@
 import './App.css';
 import React, { useState } from 'react';
-// import { useHistory } from 'react-router-dom'; // Import useHistory from react-router-dom
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const SignupForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  // const history = useHistory(); // Get history object from React Router
+  const navigate = useNavigate(); // Get navigate function from React Router
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,7 +16,7 @@ const SignupForm = () => {
 
       if (email.endsWith('@gmail.com')) {
         alert('Welcome, user!');
-        window.location.href = 'https://www.flipkart.com/'; // Redirect to Flipkart
+        navigate('/UserDetails'); // Redirect to UserDetails component
       } else {
         alert('Invalid email domain for user login.');
       }

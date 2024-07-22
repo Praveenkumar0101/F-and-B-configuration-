@@ -1,8 +1,9 @@
+import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RegistrationForm from './RegistrationForm';
 import SignupForm from './SignupForm';
-import './App.css';
+import UserDetails from './UserDetails';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<RegistrationForm />} />
           <Route path="/SignupForm" element={<SignupForm />} />
+          <Route path="/UserDetails" element={<UserDetails />} />
         </Routes>
       </div>
     </Router>
